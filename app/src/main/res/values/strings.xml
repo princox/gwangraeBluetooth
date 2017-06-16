@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">gwangraeBluetooth</string>
+    <string name="title_home">Home</string>
+    <string name="title_reservation">Reservation</string>
+    <string name="title_history">History</string>
+    <string name="error_bluetooth_not_supported">Ble Error</string>
+    <string name="title_activity_settings">Bluetooth Settings</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sensor.hlab.gwangraebluetooth.MainActivity">
+    <LinearLayout
+        android:layout_width="800dp"
+        android:layout_height="800dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="블루투스 연결"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="28dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="TextView"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="118dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
