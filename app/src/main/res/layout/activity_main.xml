@@ -16,9 +16,18 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
+            android:layout_width="383dp"
             android:layout_height="wrap_content"
             android:text="블루투스 연결"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="28dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:text="운동시작"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="85dp"
             tools:layout_editor_absoluteY="28dp" />
 
@@ -31,6 +40,52 @@
             android:gravity="center"
             tools:layout_editor_absoluteX="118dp"
             tools:layout_editor_absoluteY="138dp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:layout_width="400dp"
+            android:layout_height="338dp"
+            android:id="@+id/chart">
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="이름(영어로)"
+                android:gravity="center"
+                android:layout_weight="0.2"/>
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="나이"
+                android:gravity="center"
+                android:layout_weight="0.2"/>
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="키(cm)"
+                android:gravity="center"
+                android:layout_weight="0.2"/>
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="몸무게(kg)"
+                android:gravity="center"
+                android:layout_weight="0.35"/>
+        </LinearLayout>
 
     </LinearLayout>
 
